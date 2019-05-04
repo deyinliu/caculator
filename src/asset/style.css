@@ -1,0 +1,61 @@
+.keyboard {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 75px;
+    line-height: 75px;
+    text-align: center;
+    border-radius: 37.5px;
+    margin: 7.5px 0;
+    font-size: 24px;
+}
+
+.item:hover {
+    cursor: pointer;
+}
+
+.zero {
+    width: 160px;
+    text-align: left;
+    padding-left: 1em;
+    box-sizing: border-box;
+}
+
+.number {
+    background: #333333;
+}
+
+.operator {
+    background: #ff9224;
+    vertical-align: middle;
+    font-size: 36px;
+    line-height: 70px;
+}
+
+.control {
+    color: #000000;
+    background: #a6a6a6;
+}
+
+.screen {
+    height: 200px;
+    position: relative;
+    text-align: right;
+}
+
+.expression,
+.result {
+    position: absolute;
+    overflow-wrap: break-word;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.output {
+    bottom: 50px;
+}
